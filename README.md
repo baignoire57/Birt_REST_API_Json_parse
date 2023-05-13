@@ -3,6 +3,7 @@ Create "New Data Source" leave empty.
 
 Create "Data Set" and go tab "script"
 Create Output columns 
+![image](https://github.com/baignoire57/Birt_REST_API_Json_parse/assets/57708917/911fd0d9-1293-4cbf-979e-62dbd018ce2f)
 
 Symbol
 bidRate
@@ -25,7 +26,6 @@ count = 0;
 
 
 Script Fecth :
-
 if (count >= Number(Object.keys(json).length))
 return false;
 row["symbol"] = json[count].symbol;
