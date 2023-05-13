@@ -16,10 +16,13 @@ Script Open :
 ![image](https://github.com/baignoire57/Birt_REST_API_Json_parse/assets/57708917/783c6c46-8583-4c21-96c8-01125e9c79a4)
 
 importPackage(Packages.java.io);
+
 importPackage(Packages.java.net);
-var inStream = new 
-URL("https://api.bittrex.com/v3/markets/tickers").openStream();
+
+var inStream = new URL("https://api.bittrex.com/v3/markets/tickers").openStream();
+
 var inStreamReader = new InputStreamReader(inStream);
+
 var bufferedReader = new BufferedReader(inStreamReader);
 var line;
 var result = "";
