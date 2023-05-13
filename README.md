@@ -3,7 +3,8 @@ Create "New Data Source" leave empty.
 
 Create "Data Set" 
 
-Create Output columns 
+Create Output columns
+
 ![image](https://github.com/baignoire57/Birt_REST_API_Json_parse/assets/57708917/911fd0d9-1293-4cbf-979e-62dbd018ce2f)
 
 Symbol
@@ -39,3 +40,8 @@ row["bidRate"] = json[count].bidRate;
 row["askRate"] = json[count].askRate;
 count++;
 return true;
+
+
+Result : 
+
+![image](https://github.com/baignoire57/Birt_REST_API_Json_parse/assets/57708917/cef9bf7f-13da-4801-878d-303a6f172499)
